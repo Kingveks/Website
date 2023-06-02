@@ -91,7 +91,7 @@ header {
 .background-image {
   width: 100%; /* Adjust the width as needed */
   height: 1000px; /* Adjust the height as needed */
-  background-image: url('../images/chair.png'); /* Replace with the path to your image */
+  background-image: url('chair.png'); /* Replace with the path to your image */
   background-size: cover;
   background-position:left;
   padding-right:10%;
