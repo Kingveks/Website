@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .container h2{
+    font-size:50px;
+    padding-left:28%;
+  }
+  .about-section {
+    padding: 40px 0;
+    background-color: #97c7e2; /* Background color example */
+  }
+  
+  .about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .image-container {
+    width: 50%;
+    padding-right: 50px;
+  }
+  
+  .profile-image {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .text-container {
+    width: 50%;
+  }
+  .text-container p{
+    font-size: 20px;
+  }
+  @media (max-width: 768px) {
+    .about-content {
+      flex-direction: column;
+    }
+  
+    .image-container,
+    .text-container {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  
+  

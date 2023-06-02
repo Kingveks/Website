@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <script src="/script.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <span class="logo">Veks</span>
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="/PAGES/ABOUT.HTML">About</a></li>
+        <li><a href="/PAGES/skills.html">Skills</a></li>
+        <li><a href="/PAGES/achievements.html">Achievements</a></li>
+        <li><a href="/PAGES/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="social-media">
+      <a href="#"><img src="/images/facebook.svg" alt="Facebook"></a>
+      <a href="#"><img src="/images/twitter.svg" alt="Twitter"></a>
+      <a href="#"><img src="/images/linkedin.svg" alt="LinkedIn"></a>
+    </div>
+  </header>
+
+  <section id="home" class="home-section">
+    <div class="container">
+      <div class="header">
+        <div class="content">
+          <h1 class="welcome-text">Welcome to My Portfolio</h1>
+          <p>Explore my experience, skills, and achievements</p>
+        </div>
+        <div class="background-image"></div>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="experience" class="experience-section">
+    <div class="container">
+      <h2>Experience</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id vulputate enim. Duis eu faucibus orci.
+        Vestibulum consequat convallis orci, vitae luctus orci maximus ac. Donec viverra urna et libero rutrum, vitae
+        faucibus enim laoreet. Nullam fringilla ligula non interdum tincidunt. Vestibulum ante ipsum primis in faucibus
+        orci luctus et ultrices posuere cubilia curae; Quisque pulvinar aliquet mauris sed tincidunt. Etiam cursus
+        scelerisque ullamcorper.</p>
+    </div>
+  </section>
+  
+<section class="sk">
+  <div class="skills-main">
+    <h1>Skills</h1>
+  </div>
+
+  <div class="skills">
+    <div class="skill">
+      <div class="skill-name">HTML</div>
+      <div class="progress-bar">
+        <div class="progress progress-html" style="width: 80%;"></div>
+      </div>
+    </div>
+    <div class="skill">
+      <div class="skill-name">CSS</div>
+      <div class="progress-bar">
+        <div class="progress progress-css" style="width: 70%;"></div>
+      </div>
+    </div>
+    <div class="skill">
+      <div class="skill-name">JavaScript</div>
+      <div class="progress-bar">
+        <div class="progress progress-js" style="width: 60%;"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <section id="achievements" class="achievements-section">
+    <div class="container">
+      <h2>Achievements</h2>
+      <ul>
+        <li>Completed 100+ web development projects</li>
+        <li>Received the "Best Web Developer" award in 2022</li>
+        <li>Contributed to open-source projects</li>
+        <li>Participated in coding competitions</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="comments" class="comments-section">
+    <div class="container">
+      <h2>Comments</h2>
+      <div id="commentsContainer"></div>
+      <form id="commentForm">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" required>
+        </div>
+        <div class="form-group">
+          <label for="comment">Comment</label>
+          <textarea id="comment" required></textarea>
+        </div>
+        <div class="form-group">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <section id="hours-developed" class="hours-developed-section">
+    <div class="container">
+      <h2>Hours Developed</h2>
+      <div id="hoursDisplay"></div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 VEKARIYA SHUBHAM</p>
+  </footer>
+</body>
+</html>

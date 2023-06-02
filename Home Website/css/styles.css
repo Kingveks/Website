@@ -1,0 +1,403 @@
+/* Reset styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: black;
+  background-color: #69b4f1;
+}
+
+/* Header */
+header {
+  background-color: grey;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 70px;
+  font-weight: bold;
+  color: #00a6c0;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: 0px;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-left: 100px;
+  padding-left:50px;
+}
+
+.nav-links a {
+  color: #141414;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-size: larger;
+}
+
+.nav-links a:hover {
+  color: #c94714;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media a {
+  display: inline-block;
+  margin-right: 10px; /* Adjust the spacing between icons */
+}
+
+.social-media img {
+  width: 40px; /* Adjust the width of the icons */
+  height: auto; /* Adjust the height proportionally */
+}
+
+/* Home Section */
+.home-section {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  flex: 1;
+  padding-right: 20px;
+  font-size: 50px;
+  padding-top:0px;
+}
+
+.background-image {
+  width: 100%; /* Adjust the width as needed */
+  height: 1000px; /* Adjust the height as needed */
+  background-image: url('../images/chair.png'); /* Replace with the path to your image */
+  background-size: cover;
+  background-position:left;
+  padding-right:10%;
+}
+
+
+
+/* Other Sections */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.container h2 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.container p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.sk {
+  background-color: #f8f8f8;
+  padding: 40px 0;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.skills-main{
+  font-size:50px;
+  padding-left:45%;
+}
+
+.skill {
+  width: 200px;
+  margin: 20px;
+  text-align: center;
+}
+
+.skill-name {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.progress-bar {
+  background-color: #da1717;
+  height: 10px;
+  border-radius: 5px;
+}
+
+.progress {
+  background-color: #14fc14;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Additional styling for other sections */
+
+.experience-section,
+.achievements-section,
+.comments-section,
+.hours-developed-section {
+  padding: 40px 0;
+}
+
+.experience-section h2,
+.achievements-section h2,
+.comments-section h2,
+.hours-developed-section h2 {
+  margin-bottom: 20px;
+}
+
+.container {
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+
+.skills-section ul,
+.achievements-section ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.skills-section li,
+.achievements-section li {
+  margin-bottom: 10px;
+}
+
+.skills-section li:before,
+.achievements-section li:before {
+  content: "\2022";
+  color: #aaff00;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.skills-section h2,
+.achievements-section h2 {
+  margin-bottom: 20px;
+}
+
+.skills-section p,
+.achievements-section p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.progress-bar {
+  background-color: #f2f2f2;
+  height: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress {
+  background-color: #00a6c0;
+  height: 100%;
+  width: 0;
+  transition: width 0.5s ease-in-out;
+}
+
+.skills-section h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.skill {
+  width: calc(33.33% - 20px);
+  margin-bottom: 20px;
+}
+
+.skill-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .skill {
+    width: calc(50% - 20px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .skill {
+    width: 100%;
+  }
+}
+
+.comments-section form {
+  margin-top: 30px;
+}
+
+.comments-section form .form-group {
+  margin-bottom: 10px;
+}
+
+.comments-section form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.comments-section form input,
+.comments-section form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.comments-section form input[type="submit"] {
+  background-color: #aaff00;
+  color: #fff;
+  cursor: pointer;
+}
+
+.comments-section form input[type="submit"]:hover {
+  background-color: #00cc00;
+}
+
+/* Footer */
+footer {
+  background-color: #00a6c0;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+  .content {
+    padding-right: 0;
+    text-align: center;
+  }
+  .background-image {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+  }
+}
+/* Mobile Styles */
+@media only screen and (max-width: 600px) {
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #f9f9f9;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .nav-links li {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .menu-toggle:checked + .menu-icon:before {
+    content: '\2715';
+  }
+
+  .menu-toggle:checked ~ .nav-links {
+    display: block;
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 601px) {
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-links li {
+    margin-left: 20px;
+  }
+
+  .social-media {
+    margin-left: auto;
+  }
+}
+.container {
+  max-width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 0 10px;
+  }
+
+  .skills-section .skills {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skills-section .skill {
+    margin-bottom: 20px;
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 601px) {
+  .skills-section .skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .skills-section .skill {
+    width: calc(33.33% - 20px);
+    margin-bottom: 0;
+  }
+}

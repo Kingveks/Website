@@ -1,0 +1,38 @@
+@media screen and (max-width: 768px) {
+    .nav-links {
+      display: none;
+    }
+  
+    .nav-links.show {
+      display: block;
+    }
+  
+    .nav-links li {
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    .nav-links li:last-child {
+      margin-bottom: 0;
+    }
+  
+    .nav-toggle {
+      font-size: 24px;
+      color: #fff;
+      cursor: pointer;
+      display: block;
+      padding: 10px;
+      text-align: right;
+    }
+  
+    .container {
+      padding: 20px;
+    }
+  
+    .project-card img {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+  
